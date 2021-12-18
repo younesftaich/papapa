@@ -39,14 +39,14 @@ const nav = () => {
               </div>
               <div className="hidden md:block md:ml-10 lg:space-x-8 md:space-x-4">
                 <a href="/" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Home</a>
-                <a href="/checkout" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Channels</a>
-                <a href="/blog/how-to-install-iptv-in-my-device" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Installation</a>
-                <a href="/checkout" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Pricing</a>
+                <a href="/" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Channels</a>
+                <a href="/" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Installation</a>
+                <a href="/" className="font-medium font-sans text-black hover:text-green-700 transition-colors">Pricing</a>
               </div>
               <div className="hidden md:flex items-center lg:ml-8 md:ml-4 lg:space-x-8 md:space-x-4">
                 
-                <a x-show="! showShadow" href="/checkout" className="btn-green-700 bg-green-700 text-white p-4 px-8 rounded-xl  text-lg leading-6 font-semibold">Get started</a>
-                <a x-show="showShadow" href="/checkout" className="flex space-x-2 items-center cursor-pointer bg-yellow-500 hover:bg-yellow-600 text-white text-lg py-3 px-6 border border-transparent rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-yellow-600 focus:outline-none transition-colors duration-200 leading-6 font-semibold" style={{display: 'none'}}>
+                <a x-show="! showShadow" href="/" className="btn-green-700 bg-green-700 text-white p-4 px-8 rounded-xl  text-lg leading-6 font-semibold">Get started</a>
+                <a x-show="showShadow" href="/" className="flex space-x-2 items-center cursor-pointer bg-yellow-500 hover:bg-yellow-600 text-white text-lg py-3 px-6 border border-transparent rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-yellow-600 focus:outline-none transition-colors duration-200 leading-6 font-semibold" style={{display: 'none'}}>
                   <span>Get 50% OFF</span>
                 </a>
               </div>
@@ -69,12 +69,12 @@ const nav = () => {
               </div>
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
-                <a href="/checkout" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Channels</a>
-                <a href="/blog/how-to-install-iptv-in-my-device" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Installation</a>
-                <a href="/checkout" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Pricing</a>
+                <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Channels</a>
+                <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Installation</a>
+                <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Pricing</a>
              
               </div>
-              <a  href="/checkout" className="block w-full px-5 py-3 text-center font-medium text-green-600 bg-gray-50 hover:bg-gray-100">Get started</a>
+              <a  href="/" className="block w-full px-5 py-3 text-center font-medium text-green-600 bg-gray-50 hover:bg-gray-100">Get started</a>
             </div>
           </div>
         </div>
