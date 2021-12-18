@@ -28,9 +28,9 @@ const footer = () => {
         <h2 className="text-xs font-semibold tracking-wide text-gray-900 uppercase">Quick links</h2>
         <ul className="space-y-4 text-gray-500">
           <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Home</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Installation tutorials</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Channels</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Contact us</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/blog/how-to-install-iptv-in-my-device">Installation tutorials</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/checkout">Channels</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/contact-us">Contact us</a></li>
         </ul>
       </li>
       <li className="space-y-5 row-span-2">
@@ -77,9 +77,9 @@ export default footer;<footer className="bg-gray-50 pt-16 pb-12 sm:pt-20 md:pt-2
         <h2 className="text-xs font-semibold tracking-wide text-gray-900 uppercase">Quick links</h2>
         <ul className="space-y-4 text-gray-500">
           <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Home</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Installation tutorials</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Channels</a></li>
-          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/">Contact us</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/blog/how-to-install-iptv-in-my-device">Installation tutorials</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/checkout">Channels</a></li>
+          <li><a className="hover:text-gray-900 transition-colors duration-200" href="/contact-us">Contact us</a></li>
         </ul>
       </li>
       <li className="space-y-5 row-span-2">
