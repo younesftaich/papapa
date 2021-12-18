@@ -101,6 +101,8 @@ function Checkout(props) {
   }
   
   useEffect( () => {
+        Router.push('https://thenetflytv.com/checkout')
+
     //passing getData method to the lifecycle method
     getData()
 
