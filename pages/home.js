@@ -16,8 +16,8 @@ const home = () => {
             <p className="text-green-700">provider</p>
           </h1>
           <p className="mb-4 leading-9">Today, we are revolutionizing the way you access the television. With +88,921 channels &amp; vods, you'll be watching IPTV in a radically new, intelligent, and intuitive way.</p>
-          <a href="/" className="mr-2 mt-2 flex-none bg-green-600 hover:bg-green-700 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-green-600" type="submit">See pricing</a>
-          <a href="/" className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black" type="submit">Channels</a>
+          <a href="/checkout" className="mr-2 mt-2 flex-none bg-green-600 hover:bg-green-700 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-green-600" type="submit">See pricing</a>
+          <a href="/checkout" className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black" type="submit">Channels</a>
           <div className="text-sm block pt-3 pl-1 text-gray-600 font-light flex space-x-2 items-center">
             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={24} height={22}>
               <defs>
@@ -68,7 +68,7 @@ const home = () => {
             </p>
             <div className="absolute bottom-0 inset-x-0 bg-gray-50 px-4 py-4 sm:px-6">
               <div className="text-sm">
-                <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
+                <a href="/checkout" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
               </div>
             </div>
           </dd>
@@ -89,7 +89,7 @@ const home = () => {
             </p>
             <div className="absolute bottom-0 inset-x-0 bg-gray-50 px-4 py-4 sm:px-6">
               <div className="text-sm">
-                <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
+                <a href="/checkout" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
               </div>
             </div>
           </dd>
@@ -110,7 +110,7 @@ const home = () => {
             </p>
             <div className="absolute bottom-0 inset-x-0 bg-gray-50 px-4 py-4 sm:px-6">
               <div className="text-sm">
-                <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
+                <a href="/checkout" className="font-medium text-indigo-600 hover:text-indigo-500">Order Now<span className="sr-only"> Total Subscribers stats</span></a>
               </div>
             </div>
           </dd>
@@ -170,7 +170,7 @@ const home = () => {
                 <p className="text-gray-600">Organization is a must in IPTV, so we did make sure to user it on all our TV channels, you can now get country, A-Z</p>
               </div>
             </div>
-            <a className="btn-green-700 inline-block ml-0 bg-green-600 text-white sm:ml-14 mt-5  py-3 px-6 border border-gray-300 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white  text-lg leading-6 font-semibold focus:ring-green-600 focus:outline-none" href="/">Get started</a>          <a className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black " href="/">Channels list</a>
+            <a className="btn-green-700 inline-block ml-0 bg-green-600 text-white sm:ml-14 mt-5  py-3 px-6 border border-gray-300 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white  text-lg leading-6 font-semibold focus:ring-green-600 focus:outline-none" href="/checkout">Get started</a>          <a className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black " href="/checkout">Channels list</a>
           </div>
           <div className="md:pl-12 pt-6 md:pt-0">
             <img src = "https://res.cloudinary.com/luxiptv/image/upload/v1639697900/Capture_d_%C3%A9cran_2021-12-17_073458_ceyhsb.png" />
@@ -210,7 +210,7 @@ const home = () => {
               <p className="text-gray-600">We’ve made the impossible possible, with a full library of thousands of Movies &amp; Series (tv shows) you will be able to Watch trailers, read reviews and get shows seasons details, get the latest information on upcoming movie releases. Choosing the right movie has never been so easy.</p>
             </div>
           </div>
-          <a className="btn-green-700 inline-block ml-0 bg-green-600 text-white sm:ml-14 mt-5  py-3 px-6 border border-gray-300 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white  text-lg leading-6 font-semibold focus:ring-green-600 focus:outline-none" href="/">Get started</a>          <a className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black " href="/">Channels list</a>
+          <a className="btn-green-700 inline-block ml-0 bg-green-600 text-white sm:ml-14 mt-5  py-3 px-6 border border-gray-300 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white  text-lg leading-6 font-semibold focus:ring-green-600 focus:outline-none" href="/checkout">Get started</a>          <a className="mr-2 mt-2 flex-none bg-gray-800 hover:bg-gray-900 text-white text-lg leading-6 font-semibold py-4 px-6 border border-transparent rounded-xl focus:outline-none transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-black " href="/checkout">Channels list</a>
         </div>
         <div className="pt-5 md:pr-16 md:order-1">
           <img src = "https://res.cloudinary.com/luxiptv/image/upload/v1639698055/Capture_d_%C3%A9cran_2021-12-17_074042_g2b4qm.png" />
@@ -478,7 +478,7 @@ const home = () => {
 
         </div>
       </div>
-      <a href="/" className="mx-auto flex justify-between max-w-md cursor-pointer bg-green-500 hover:bg-green-700 text-white py-3 px-6 border border-transparent rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-green-500 focus:outline-none transition-colors duration-200 mt-6">
+      <a href="/checkout" className="mx-auto flex justify-between max-w-md cursor-pointer bg-green-500 hover:bg-green-700 text-white py-3 px-6 border border-transparent rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-green-500 focus:outline-none transition-colors duration-200 mt-6">
         <span />
         <span>Get My Instant Access Now</span>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
